@@ -1,0 +1,6 @@
+.env
+node_modules/
+.idea/
+.meteor/
+public/images/ToSee
+comments.txt

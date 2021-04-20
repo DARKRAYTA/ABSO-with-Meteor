@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-image: url("/images/background.png");/*Dichiaro questa folder (public) che di default non c'è, quindi su browser si vedono le cose solite e anche la dir images, segna errore ma è perché è tutto compilato*/
+  background-repeat: repeat-y;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.profile {
+  background-image: url('/images/riquadro.png');
+  //background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  //background-position: center center;              /* optional, center the image */
+}
